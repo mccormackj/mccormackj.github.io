@@ -1,0 +1,38 @@
+.AboutSection{
+    margin-top: 10px;
+    margin-bottom:  20px;
+    display: flex;
+    align-items:center;
+}
+
+/* Children of each section of the "About" page */
+.AboutSection * {
+    display: inline-block;
+}
+
+/* Text portion only of each section of the "About" page */
+.AboutSection div {
+    max-width: 75vw;
+    min-width: 75vw;
+    vertical-align: top;
+    padding: 0% 1% 0% 1%;
+}
+
+/* Ensures text blocks within a section are stacked vertically */
+.AboutSection div h2,p {
+    display: block;
+}
+
+#JoPic {
+    max-width: 20vw;
+    min-width: 20vw;
+    border-radius: 50%;
+    border-width: 0.35rem;
+    border-style: solid;
+    border-color: #38023B;
+  }
+
+#FreetailLogo{
+    max-width: 20vw;
+    min-width: 20vw;
+}
