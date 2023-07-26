@@ -15,22 +15,18 @@ function App () {
   return (
       <Router>
       <div className="App">
-        <ul id ="Menu">
-          <li>
-            <Link to="/" onClick = {() => highlightActive("/")} >Home</Link>
-          </li>
-          <li>
-            <Link to="/about" onClick = {() => highlightActive("/about")} >About Me</Link>
-          </li>
-          <li>
-            <Link to="/contact" onClick = {() => highlightActive("/contact")} >Contact Me</Link>
-          </li>
-        </ul>
+        <div class ="navbar">
+          <Link to="/" onClick = {() => highlightActive("/")} >Home</Link>
+          <Link to="/about" onClick = {() => highlightActive("/about")} >About Me</Link>
+          <Link to="/contact" onClick = {() => highlightActive("/contact")} >Contact Me</Link>
+        </div>
+        <div class ="main">
         <Routes>
             <Route exact path='/' element = {<Home />} ></Route>
             <Route exact path='/about' element={< About />}></Route>
             <Route exact path='/contact' element={< Contact />}></Route>
         </Routes>
+        </div>
       </div>
       </Router>
   );

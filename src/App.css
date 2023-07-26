@@ -33,32 +33,36 @@ body {
   font-family: 'Rubik-Regular', Helvetica, sans-serif;
 }
 
-#Menu {
-  text-align: right;
+.navbar {
+  background-color: var(--MAGIC_MINT);
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
-#Menu li {
+.navbar a{
   display: inline;
-  margin: 0.5rem;
-} 
-
-#Menu a{
-  padding: 0.5rem 0.75rem 0.5rem 0rem;
-  text-align: center;
+  float: right;
+  padding: 0.75rem 2rem 0.75rem 0rem;
   text-decoration: none;
   font-size: 1.2rem;
+  letter-spacing: 0.1rem;
   font-weight: bolder;
 }
 
-#Menu a:link, 
-#Menu a:visited {
+.navbar a:link, 
+.navbar a:visited {
   color: var(--RUSSIAN_VIOLET);
 }
 
-#Menu a:hover,
-#Menu a:active,
-#Menu a.selected{
+.navbar a:hover,
+.navbar a:active,
+.navbar a.selected{
   color: var(--LAVENDER_FLORAL)
+}
+
+.main{
+  margin-top:4rem;
 }
 
 h2 {
