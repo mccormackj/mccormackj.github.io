@@ -1,0 +1,22 @@
+@import './App.css';
+
+h2{
+    margin: 2%;
+}
+
+p{
+    margin: 6% ;
+}
+
+svg{
+    width: 5%;
+    padding: 1%;
+}
+
+.icons{
+    position:absolute;
+    display: table-row-group;
+    align-content: center;
+    width: 100%;
+    bottom: 0;
+}
