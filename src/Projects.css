@@ -1,0 +1,33 @@
+.ProjectSection{
+    margin-top: 10px;
+    margin-bottom:  20px;
+    display: flex;
+    align-items:center;
+}
+
+/* Children of each section of the "About" page */
+.ProjectSection * {
+    display: inline-block;
+}
+
+/* Text portion only of each section of the "About" page */
+.ProjectSection div {
+    max-width: 75vw;
+    min-width: 75vw;
+    vertical-align: top;
+    padding: 0% 1% 0% 1%;
+}
+
+/* Ensures text blocks within a section are stacked vertically */
+.ProjectSection div h2,p {
+    display: block;
+}
+
+#TimerSS {
+    max-width: 20vw;
+    min-width: 20vw;
+    border-radius: 5%;
+    border-width: 0rem;
+    border-style: solid;
+    border-color: #38023B;
+  }
