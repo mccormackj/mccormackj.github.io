@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.2bf73197.css",
-    "main.js": "/static/js/main.f1cde458.js",
+    "main.css": "/static/css/main.3b46e96e.css",
+    "main.js": "/static/js/main.39775e69.js",
     "static/js/787.7eb2e40c.chunk.js": "/static/js/787.7eb2e40c.chunk.js",
     "static/media/profilepic.jpg": "/static/media/profilepic.b7b9ebc12ad5ef04bc12.jpg",
     "static/media/Rubik-Regular.woff2": "/static/media/Rubik-Regular.425fed39baf6123655b7.woff2",
     "static/media/FreetailLogo.png": "/static/media/FreetailLogo.105d1f82923cc8f589ca.png",
+    "static/media/TimerSS.png": "/static/media/TimerSS.9920fd66600a7dc681d8.png",
     "index.html": "/index.html",
-    "main.2bf73197.css.map": "/static/css/main.2bf73197.css.map",
-    "main.f1cde458.js.map": "/static/js/main.f1cde458.js.map",
+    "main.3b46e96e.css.map": "/static/css/main.3b46e96e.css.map",
+    "main.39775e69.js.map": "/static/js/main.39775e69.js.map",
     "787.7eb2e40c.chunk.js.map": "/static/js/787.7eb2e40c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2bf73197.css",
-    "static/js/main.f1cde458.js"
+    "static/css/main.3b46e96e.css",
+    "static/js/main.39775e69.js"
   ]
 }
